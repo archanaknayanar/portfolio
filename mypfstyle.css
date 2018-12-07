@@ -1,0 +1,152 @@
+html,body{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.intro{
+	top: 0;
+	background: #e0ebe8;
+	min-height: 55vh;
+  	padding-top: 45vh;
+}
+.intro p{
+	color: green;
+	margin-top: 5px;
+}
+
+nav ul{
+	text-align: right;
+	position: fixed;
+	width: 100%;
+	background-color: #e0ebe8;
+}
+nav ul li{
+	display: inline-block;
+	/* 19-This is to keep width between li*/
+	margin: 55px;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #008080;
+}
+nav ul li a:hover{
+	color: red;
+}
+
+.work{
+	padding-top: 60px;
+	margin-top: -60px;
+
+}
+.work .work-heading{
+	margin-top: 50px;
+	color: #008080;
+	font-weight: normal;
+}
+.project{
+	text-decoration: none;
+	color: #008080;
+	display: inline-block;
+	overflow: hidden;
+	border: 2px solid lightblue;
+	/* 48-49-This is to resize the images into blocks*/
+	height: 220px;
+	width: 280px;
+	/*This is to display them in rows and columns style*/
+	margin: 40px 100px;
+
+}
+.image{
+	width: 100%;
+	height: 180px;
+	border-bottom: 2px solid lightblue;
+}
+.project-title{
+	font-weight: bold;
+	padding-top: 5px;
+}
+.show-all{
+	text-decoration: none;
+	/* 74,77-To align the button to center*/
+	display: block;
+	width: 200px;
+	height: 30px;
+	margin: 20px auto 90px;
+	background: #e0ebe8;
+	padding-top: 10px;
+	color: #008080;
+	font-weight: bold;
+	font-size: 1em;
+	border: 2px solid #90C695;
+	border-radius: 10px;
+}
+.show-all:hover{
+	background: #E4F1FE;
+}
+
+@media only screen and (max-width: 500px){
+	nav ul{
+		text-align: center;
+	}
+	nav ul li{
+		margin: 20px;
+		
+	}
+	.project{
+		margin: 40px 0;
+	}
+}
+
+.contact{
+	padding-bottom: 160px;
+	background: #C8F7C5;
+}
+.header{
+	padding: 160px 0 110px;
+}
+.contact-details{
+	display: inline-block;
+	font-weight: bold;
+	list-style-type: none;
+	margin: 0 35px 45px 35px;
+	border: 2px solid #90C695;
+	border-radius: 100%;
+	/* For circle shape*/
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-decoration: none;
+	color: #008080;
+	background: #e0ebe8;
+}
+footer{
+	padding: 20px;
+	background: #22313F;
+	color: white;
+
+}
+footer p{
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
